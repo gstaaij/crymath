@@ -27,8 +27,6 @@
 #include "crymath.h"
 #include "stb_ds.h"
 
-/// TODO: make this a library (cryptomath) (or crymath?)
-
 i64 gcm_div(i64 a, i64 b) {
     i64 k = a / b;
     while (k * b <= a)
@@ -38,7 +36,6 @@ i64 gcm_div(i64 a, i64 b) {
     return k;
 }
 
-// a mod m = a - m * (a div m)
 i64 gcm_mod(i64 a, i64 m) {
     return a - m * gcm_div(a, m);
 }
