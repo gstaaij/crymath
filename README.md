@@ -3,5 +3,5 @@
 
 > *Also known as crymath or gcm for short*
 
-This library is for *my* educational purposes only.
-Please don't use it.
+**This library is for my own educational purposes only.
+Please don't use it.**
